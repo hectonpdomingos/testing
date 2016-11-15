@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class calc {
     public static void main(String [] args){
-
+//prices
     Double priceUSPS[] = {0.0,1.1,2.3,3.3};
 
     System.out.println("Weight LBS");
@@ -10,5 +10,6 @@ public class calc {
        int i =  scan.nextInt();
 
 System.out.println(priceUSPS[i]);
+
     }
 }
